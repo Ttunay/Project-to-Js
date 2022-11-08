@@ -1,0 +1,230 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul, button {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+header{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/pexels-brett-sayles-4276427.jpg);
+	position: relative;
+}
+header:before{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+}
+.contant{
+    position: absolute;
+    right: 150px;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    padding: 20px;
+}
+.content {
+    padding-top: 10px;
+}
+.nav-link {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.btn_for_header{
+    border-radius: 5;
+    border: none;
+    background-color: #FF4D01;
+    color: whitesmoke;
+    padding: 15px 16px;
+    font-size: 16px;
+}
+.btn_for_header :active{
+    transform: scale(.85);
+}
+button:active{
+    transform: scale(.85);
+}
+.block-on-btn{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.btn-link {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.block_header{
+    position: relative;
+}
+.provide{
+    position: absolute;
+    top: 251px;
+    left: 650px;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 72px;
+}
+.Lorem{
+    position: absolute;
+    top: 451px;
+    left: 650px;
+    font-size: 18px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.two-btn{
+    padding-left: 125px;
+}
+.mobile-button {
+    border: solid 2px black;
+    background-image: none; 
+    background: transparent;
+    text-align: center;
+    background-color: transparent;
+    padding: 15px 16px;
+    left: 980px;
+  }
+.mobile-button i {
+    font-size: 30px;
+}
+
+.btn_header{
+    left: 750px;
+    border-radius: 5;
+    border: none;
+    background-color: #FF4D01;
+    color: whitesmoke;
+    padding: 15px 16px;
+    font-size: 16px;
+}
+.buttan{
+    height: 75px;
+    position: absolute;
+    top: 551px;
+    font-size: 18px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+/* main */
+main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+ .builder{
+    position: absolute;
+    height: 681px;
+    width: 479px;
+    left: 146px;
+    top: 100px;
+} 
+.square{
+    position: absolute;
+    width: 204px;
+    height: 204px;
+    border: #FF4D01 solid 3px;
+    border-radius: 0px;
+    top: 80px;
+    left: 130px;
+}
+.main-contant{
+    position: absolute;
+    right: 150px;
+    margin-top: 25px;
+    width: 900px;
+    height: 755px;
+
+}
+.about{
+    position: absolute;
+    left: 73px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FF4D01;
+}
+.experienced{
+    position: absolute;
+    left: 65px;
+    padding-top: 90px;
+    font-size: 54px;
+    color: #191919;
+    font-weight: bold;
+}
+.team-contant{
+    position: absolute;
+    left: 65px;
+    top: 310px;
+    font-size: 18px;
+    width: 400px;
+    line-height: 1.5;
+    color: #605E5D;
+}
+span{
+    color: #FF4D01;
+}
+.number{
+    position: absolute;
+    top: 500px;
+    left: 75px;
+}
+.project{
+    font-size: 18px;
+    color: #989899;
+    width: 400px;
+}
+.red{
+    font-size: 72px;
+    width: 400px;
+}
+.exprice{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+.satisfied{
+    position: absolute;
+    top: 500px;
+    right: 25px;
+}
+.our-company{
+    position: absolute;
+    top: 700px;
+    border: solid 2px black;
+    padding: 20px 20px;
+    font-size: 18px;
+    background-image: none; 
+    background: transparent;
+    text-align: center;
+    background-color: transparent;
+}
