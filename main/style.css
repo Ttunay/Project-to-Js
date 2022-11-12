@@ -135,7 +135,7 @@ button:active{
     color: whitesmoke;
 }
 /* main */
-main{
+.team{
     position: relative;
     height: 100vh;
     width: 100%;
@@ -227,4 +227,97 @@ span{
     background: transparent;
     text-align: center;
     background-color: transparent;
+}
+.our-servise{
+    position: relative;
+    height: 120vh;
+}
+.services{
+    position: absolute;
+    left: 146px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FF4D01;
+}
+.comprehensive{
+    position: absolute;
+    left: 146px;
+    padding-top: 100px;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+}
+.main-button{
+    position: absolute;
+    right: 150px;
+    padding-top: 120px;
+    margin-right: 25px;
+}
+.Get{
+    border-radius: 5;
+    border: none;
+    background-color: #FF4D01;
+    color: whitesmoke;
+    padding: 25px 35px;
+    font-size: 16px;
+    margin-right: 25px;
+}
+.btn-1{
+    border: solid 2px black;
+    background-image: none; 
+    background: transparent;
+    text-align: center;
+    background-color: transparent;
+    padding: 25px 55px;
+    left: 980px;
+}
+.Interior44{
+    /* border: 3px solid black; */
+}
+.form{
+    width: 400px;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.Project-Planning{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.Planning{
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 25px;
+}
+.dolor{
+    padding-top: 30px;
+    color: #605E5D;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Project-Management{
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+.General-Contracting{
+    position: absolute;
+    top: 300px;
+    right: 470px;
+}
+.Interior-Design{
+    position: absolute;
+    top: 650px;
+    left: 150px;
+}
+.Exterior-Design{
+    position: absolute;
+    top: 650px;
+    left: 600px;
+}
+.Space-Planning{
+    position: absolute;
+    top: 650px;
+    right: 470px;
 }
