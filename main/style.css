@@ -62,7 +62,8 @@ header:before{
     border: none;
     background-color: #FF4D01;
     color: whitesmoke;
-    padding: 15px 16px;
+    width: 129px;
+    height: 54px;
     font-size: 16px;
 }
 .btn_for_header :active{
@@ -105,12 +106,12 @@ button:active{
     padding-left: 125px;
 }
 .mobile-button {
-    border: solid 2px black;
+    border: solid 2px whitesmoke;
     background-image: none; 
     background: transparent;
-    text-align: center;
     background-color: transparent;
-    padding: 15px 16px;
+    width: 180px;
+    height: 75px;
     left: 980px;
   }
 .mobile-button i {
@@ -123,7 +124,8 @@ button:active{
     border: none;
     background-color: #FF4D01;
     color: whitesmoke;
-    padding: 15px 16px;
+    width: 169px;
+    height: 75px;
     font-size: 16px;
 }
 .buttan{
@@ -221,7 +223,8 @@ span{
     position: absolute;
     top: 700px;
     border: solid 2px black;
-    padding: 20px 20px;
+    width: 237px;
+    height: 75px;
     font-size: 18px;
     background-image: none; 
     background: transparent;
@@ -259,7 +262,8 @@ span{
     border: none;
     background-color: #FF4D01;
     color: whitesmoke;
-    padding: 25px 35px;
+    width: 169px;
+    height: 75px;
     font-size: 16px;
     margin-right: 25px;
 }
@@ -269,7 +273,9 @@ span{
     background: transparent;
     text-align: center;
     background-color: transparent;
-    padding: 25px 55px;
+    font-size: 18px;
+    width: 211px;
+    height: 75px;
     left: 980px;
 }
 .Interior44{
