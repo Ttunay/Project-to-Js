@@ -477,3 +477,105 @@ span{
     bottom: 370px;
     border: #FF4D01 solid 3px;
 }
+.sharik{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    border: #FF4D01 2px solid;
+}
+.past{
+    position: absolute;
+    top: 120px;
+    left: 145px;
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #FF4D01;
+}
+.results{
+    position: absolute;
+    top: 150px;
+    left: 145px;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+}
+.btn-sharik{
+    position: absolute;
+    top: 150px;
+    right: 170px;
+    height: 75px;
+    width: 180px;
+    border: solid 2px #191919;
+    font-size: 18px;
+}
+.browse{
+    position: absolute;
+    top: 150px;
+    right: 370px;
+    height: 75px;
+    width: 169px;
+    background-color: #FF4D01;
+    color: whitesmoke;
+    border: none;
+    font-size: 18px;
+    margin-right: 35px;
+}
+.container{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    height: 611px;
+    width: 545px;
+}
+.block-image{
+    position: absolute;
+    height: 611px;
+    width: 545px;
+    background-image: url(../image/IMAGE.png);
+    background-size: cover;
+}
+.hearts {
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 48px;
+    bottom: 25px;
+    color:  #FFFFFF;
+    font-family: sans-serif;
+}
+.hire {
+    position: absolute;
+    bottom: 134px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #EAEAEB;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    position: absolute;
+    bottom: 36px;
+    left: 85px;
+   color: #EAEAEB;
+
+}
+.content-container{
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    height: 611px;
+    width: 545px;
+}
+.block-image-container{
+    position: absolute;
+    height: 611px;
+    width: 545px;
+    background-image: url(../image/ddd.png);
+    background-size: cover;
+}
