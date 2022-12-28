@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  padding: 5px;
+}
+.footer-container{
+  background-color: #000000;
+  padding: 4rem 0 4rem 0;
+}
+.footer{
+  width: 80%;
+  height: 40vh;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.footer-heading{
+   display: flex;
+  flex-direction: column;
+  margin-right: 3rem; 
+}
+.footer-heading h2{
+  margin-bottom: 2rem;
+}
+.footer-heading a{
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.footer-heading a:hover{
+  color: #FF4D01;
+  transition: 0.3s ease-out;
+}
+.footer-email-form h2{
+  margin-bottom: 2rem;
+} 
+.text{
+  width: 300px;
+  height: 100px;
+}
+.sit{
+  position: absolute;
+  left: 230px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+/* social icons  */
+.container{
+  position: absolute;
+  top: 150px;
+  left: 145px;
+  /* background-color: #252525; */
+}
+.social-buttons {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.social-buttons button {
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all .25s ease;
+}
+
+.social-buttons button:active {
+  transform: scale(.85);
+}
+
+.social-buttons button .bg {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #FF4D01;
+  border-radius: 25px;
+  pointer-events: none;
+  box-shadow: 0 0 30px #FF4D01;
+}
+
+.social-buttons button i {
+  position: relative;
+  z-index: 10;
+  font-size: 28px;
+  pointer-events: none;
+}
+/* end social icons */
+
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+#footer-email::placeholder{
+  color: rebeccapurple;
+}
+#footer-email-btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #F9423D;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+#footer-email-btn:hover{
+  cursor:pointer;
+  background-color: #337AF1;
+  transition: all 0.4s ease-out;
+}
+.number{
+  font-size: 2rem;
+}
+.btn{
+  border: white solid 2px;
+  padding: 10px;
+  width: 50%;
+  background-color: #5b6dcd;
+  border-radius: 0 0 0 15px;
+  font-size: 1em;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+  transition: 0.5s;
+}
+.btn:hover{
+  border: solid rebeccapurple 2px;
+  background-color: rebeccapurple;
+}
