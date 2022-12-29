@@ -151,3 +151,65 @@ a{
   border: solid rebeccapurple 2px;
   background-color: rebeccapurple;
 }
+.border{
+  height: 107px;
+  width: 290px;
+  border: #FF4D01 2px solid;
+}
+.info{
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #EAEAEB;
+}
+.color{
+  padding: 5px;
+}
+.Call{
+  position: absolute;
+  top: 125px;
+  right: 500px;
+}
+.Number-phone{
+  position: absolute;
+  top: 145px;
+  right: 440px;
+}
+.image-phone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 55px;
+  background-color: #FF4D01;
+}
+.block-phone{
+  position: absolute;
+  top: 120px;
+  right: 570px;
+}
+.email{
+  padding-top: 20px;
+}
+.Gmail{  position: absolute;
+  top: 245px;
+  right: 486px;}
+.contractor {
+  position: absolute;
+  top: 265px;
+  right: 400px;
+}
+.block-email{
+  position: absolute;
+  top: 240px;
+  right: 570px;
+}
+.image-email{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 55px;
+  background-color: #FF4D01;
+}
